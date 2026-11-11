@@ -44,7 +44,7 @@ public class Token {
     @Override
     public String toString() {
         return String.format(
-                "Token{type=%s, lexeme='%s', line=%d,column=%d}",
+                "Token" + '\n' + "{\n\ttype=%s, \n\tlexeme='%s', \n\tline=%d, \n\tcolumn=%d" + '\n' + "}" + '\n',
                 type,
                 lexeme,
                 line,

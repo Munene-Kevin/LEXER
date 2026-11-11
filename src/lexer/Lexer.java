@@ -44,8 +44,8 @@ OUTPUT: sequence of Token objects thus stored in a collection List.
  */
 public class Lexer {
     //source and token storage
-    private final String source; //complete source code being analyzed
-    private final List<Token> tokens = new ArrayList<>(); //collection of recognized tokens
+    private final String source; //complete source code being analyzed.
+    private final List<Token> tokens = new ArrayList<>(); //collection of recognized tokens are stored here.
 
     //scanning positions
     private int start = 0; //starting index of the lexeme currently being scanned.
